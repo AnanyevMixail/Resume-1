@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color : #000;
+    background-color: lightgray;
+}
+
+.contener {
+ max-width: 750px;
+ margin: auto;
+ padding-top: 20px;
+}
+
+.avatar img{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0,0,0, .25);
+    
+}
+.info {
+    padding: 10px;
+    display: flex;
+}
+
+.text-info {
+    margin-left: 40px;
+}
+.text-info p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal1;
+    padding: 10px;
+}
+
+.text-info h4 {
+    padding: 10px;
+}
+
+.school {
+    padding: 15px;
+    font-weight: bold;
+}
+
+@media(max-width:740px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.card0 {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(238, 228, 182);
+    margin: 10px;
+}
+
+.card1 {
+    padding: 5px;  
+    border-radius: 20px;
+    background-color: rgb(171, 238, 132);
+    margin: 10px;
+}
+
+.card1 {
+    padding: 20px;
+}
+.card2 {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(115, 247, 203);
+    margin: 10px;
+}
+.card2 h2 {
+    padding: 0 20px;
+}
+
+.list   { 
+    padding: 0 20px;
+}
+
+.list li {
+    color: #727272;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.table  {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: #86898f;
+}
+
+.table td:nth-child(3) {
+    color: #86898f;
+}
+a:hover {
+    text-decoration: underline;
+    }
+
+a:active { 
+        color: mediumorchid
+    }
+
+a:visited {
+    color: gray;
+}    
+
+.btn{
+    background: #111;
+    padding: 15px 20px;
+    color:#fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-raw { 
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-raw .form-group
+  {
+margin-right: 20px;
+width: 50%;
+}
+
+.form-raw .form-group:last-child {
+    margin-right: 0;
+}
+
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color:#000;
+}
+
+@media(max-width:600px) {
+    .form-raw { 
+        margin-bottom: 10px;
+        display: block;}
+
+        .form-group .form-raw {
+          width: 100%;
+          margin-right:0;
+          margin-bottom: 10px;
+        }
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #727272;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
